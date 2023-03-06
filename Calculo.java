@@ -4,7 +4,7 @@
         int minimo = 200;
         int media = 0;
         int suma = 0;
-        int numero;
+        boolean numero;
         for(int i = 1; i<50;i++){
             numero =(int)(Math.random()*100+100);
             if(numero>maximo)maximo=numero;
@@ -18,4 +18,4 @@
         System.out.print("El número máximo dado fue: "+maximo+"\n");
         System.out.print("El número mínimo dado fue: "+minimo+"\n");
     }
-}
+
