@@ -4,7 +4,7 @@
         int minimo = 200;
         int media = 0;
         int suma = 0;
-ssss
+        long numero = 0;
         for(int i = 1; i<50;i++){
             numero =(int)(Math.random()*100+100);
             if(numero>maximo)maximo=numero;
